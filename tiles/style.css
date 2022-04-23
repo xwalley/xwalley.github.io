@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: noto sans;
+  font-size: 1.5em;
+  background-color: #666666;
+}
+
+.outer{
+	text-align: center;
+}
+
+.page{
+	position: relative;
+	margin-top:0px;
+	max-width: 1200px;
+	width:100%;
+	height:100%;
+	display: inline-block;
+	text-align: left;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  font-family: noto sans;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding-top: 1%;
+  padding-bottom:1%;
+  background-color:#1a1a1a;
+  z-index: 100;
+  opacity: 0.9;
+}
+div p{
+  margin-left: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: white;
+  position:absolute;
+
+
+}
+
+a{
+  flex-grow:1;
+  font-size:1.5em;
+  font-weight: 500;
+  text-decoration:none;
+  color:#f5882e;
+  text-align: center;
+  overflow: hidden;
+
+}
+a:hover{
+  color: gray;
+}
+
+.tile{
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:600px;
+}
+
+.tilebg1{
+	background-image: url("img/sea.jpg");
+
+}
+
+.tilebg2{
+	background-image: url("img/sky.jpg");
+
+}
+.tilebg3{
+	background-image: url("img/spiderlake.jpg");
+
+}
+
+.tilebg4{
+	background-image: url("img/cups.jpg");
+
+}
+
+.tilebg5{
+	background-image: url("img/glasspark.jpg");
+}
+
+.tilebg6{
+	background-image: url("img/sunset.jpg");
+}
+
+.tilebg7{
+	background-image: url("img/merna-hands.jpg");
+}
+.tilebg8{
+	background-image: url("img/market.jpg");
+}
+
+.tilebg9{
+	background-image: url("img/iglesias_bus.jpg");
+}
+
+.tilebg10{
+	background-image: url("img/iglesias_documentary.jpg");
+}
