@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>transitions</title>
+
+<style>
+
+  .container{
+    margin:20rem;
+    text-align:center;
+    position:relative;
+
+  }
+  .circle{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f94346;
+
+    transition:.5s ease;
+
+  }
+
+  .circle2{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #90be6d;
+    transition:.5s ease;
+    filter:invert(100%);
+
+  }
+
+
+.circle2:hover{
+   transform: scale(3);
+   opacity:.5;
+   filter:invert(0%);
+   filter:blur(3px);
+}
+
+
+
+
+</style>
+  </head>
+  <body>
+
+
+    	<div class="container">
+           	  <div class="circle"></div>
+              <div class="circle2"></div>
+      </div>
+
+
+
+
+
+
+  </body>
+</html>
