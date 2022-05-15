@@ -1,0 +1,29 @@
+* {
+    margin:0;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0% 0%;
+  min-height: 0.125rem;
+}
+
+.row::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.col-6{
+  width:50%;
+}
+
+.col-12{
+  width:50%;
+}
